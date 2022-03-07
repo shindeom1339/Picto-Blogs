@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:>
+
+     <head>
+          <!-- Global site tag (gtag.js) - Google Analytics -->
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157561125-2"></script>
+          <script>
+               window.dataLayer = window.dataLayer || [];
+               function gtag() { dataLayer.push(arguments); }
+               gtag('js', new Date());
+
+               gtag('config', 'UA-157561125-2');
+          </script>
+          <!-- Google Analytics -->
+
+          <!-- Favicons -->
+          <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png">
+          <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png">
+          <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png">
+          <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-icon-76x76.png">
+          <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-icon-114x114.png">
+          <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-icon-120x120.png">
+          <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-icon-144x144.png">
+          <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-icon-152x152.png">
+          <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-icon-180x180.png">
+          <link rel="icon" type="image/png" sizes="192x192" href="/favicons/android-icon-192x192.png">
+          <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+          <link rel="icon" type="image/png" sizes="96x96" href="/favicons/favicon-96x96.png">
+          <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+          <link rel="manifest" href="/favicons/manifest.json">
+          <meta name="msapplication-TileColor" content="#0F0320">
+          <meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
+          <meta name="theme-color" content="#0F0320">
+          <!-- Favicons -->
+
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+               integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+          <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+          
+          <link rel="stylesheet" href="./individual page.css">
+
+          <link rel="stylesheet" href="/assets/css/individual_page.css">
+          <meta charset="UTF-8">
+          <script src="https://github.hubspot.com/odometer/odometer.js"></script>
+          <link rel="stylesheet" href="assets/styles/odometer-theme-default.css" />
+          <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+               integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+          <script type="text/javascript" src="navbar.js"></script>
+
+     <style>
+          html,
+          body {
+               overflow-x: hidden;
+          }
+
+          .mobile-only {
+               display: none !important;
+          }
+
+          @media only screen and (max-width: 600px) {
+               .mobile-only {
+                    display: block !important;
+               }
+          }
+     </style>
+
+     <title>Pictoreal - Blogs!</title>
+     <script src="assets/js/navbar.js"></script>
+     </head>
+
+     <body>
+
+          <!-- ------------------------------------NAVBAR------------------------- -->
+          <div id="overlayer">
+               <div class="loader" style="text-align: center;">
+                   <img src="./logo.png" alt="">
+               </div>
+          </div>
+          <div style="background-color: transparent; opacity: 1">
+       
+               <!-- <div class="div_btn_navbar" id="div_btn_navbar">
+               <a href="#"
+                    class="btn btn--white btn--animated">PictoBlogs</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+               <a href="/magazines/preview/?vol=23" class="btn btn--white btn--animated">Volume
+                    23</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/magazines"
+                    class="btn btn--white btn--animated">Magazines</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               </div> -->
+     
+               <div class="navbar" id="navbar">
+               <a onclick="toTop()" style="cursor: pointer;"><img src="./logo.png" alt="Pictoreal logo"
+                         class="logo_navbar" id="logo_navbar"></a>
+     
+     
+               </div>
+               <div class="navigation">
+                    <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+          
+                    <label for="navi-toggle" class="navigation__button" id="navigation__button">
+                         <span class="navigation__icon" id="navigation__icon">&nbsp;</span>
+                    </label>
+          
+                    <div class="navigation__background" id="navigation__background">&nbsp;</div>
+          
+                    <nav class="navigation__nav">
+                         <ul class="navigation__list">
+                              <li class="navigation__item">
+                                   <a href="/" class="navigation__link">Home</a>
+                              </li>
+                              <li class="navigation__item">
+                                   <a href="/magazines" class="navigation__link">Magazines</a>
+                              </li>
+                              <li class="navigation__item">
+                                   <a href="/gallery" class="navigation__link">Gallery</a>
+                              </li>
+                              <li class="navigation__item">
+                                   <a href="/team" class="navigation__link">Team Members</a>
+                              </li>
+                              <li class="navigation__item">
+                                   <a href="/contact" class="navigation__link">Contact Us</a>
+                              </li>
+                              <li class="navigation__item">
+                                   <a href="/clubs" class="navigation__link">College Clubs</a>
+                              </li>
+                              <li class="navigation__item">
+                                   <a href="/layout.html" class="navigation__link">Blogs</a>
+                              </li>
+                         </ul>
+                    </nav>
+               </div>
+          </div>
+
+
+          <!-- ------------------------------------INDIVIDUAL PAGE------------------------- -->
+
+          <div class="header-img-text">
+               <img id="img" src="/assets/images/ynD3snm.jpg" class="d-block w-100" alt="blog image" style="width:100%;" style="padding-bottom: 5%;">
+               <div class="title">
+                 <span>SOCIAL MEDIA: </span>
+                 <span>REEL vs REAL?</span>
+               </div>
+             </div>
+       
+             <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+               <div class="carousel-inner">
+                 <div class="carousel-item active">
+                   <img src="pexels-pixabay-267389.jpg" class="d-block w-100" alt="blog image" style="width:100%;" style="padding-bottom: 5%;">
+                 </div>
+                 </div>
+               </div>
+             </div> -->
+             
+             <!-- <div class="title">SOCIAL MEDIA  </div>
+           <div class="title">REEL vs REAL? </div> -->
+         
+       
+            <div class="row card_article">
+       
+             <div class="col-3 side-div">
+       
+               <div class="author-info">
+                 Author name-
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sollicitudin mauris nibh, in tincidunt quam pulvinar at. Vestibulum sit amet purus cursus, commodo lorem vel, fermentum mi. Phasellus id ante in quam efficitur dignissim. Phasellus maximus, lacus mollis dignissim molestie, eros libero accumsan risus, varius condimentum quam urna at magna.
+            
+               </div>
+       
+               <div class="quote">"A word after a word after a word is power."
+                 --Margaret Atwood
+               </div>
+       
+             </div>
+       
+       
+               <div class="col-9 card-body">
+               
+            
+                 <p class="card-text">  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula dapibus vestibulum. Praesent luctus sagittis lectus, sit amet placerat eros tincidunt a. Vestibulum vel sodales elit. Donec nisi massa, iaculis vitae sapien porttitor, mattis commodo dolor. Maecenas mattis ligula ac luctus commodo. Integer eu massa tortor. Morbi eu orci sed mi dapibus condimentum vitae ac purus. Nullam nisl lacus, accumsan non elit eu, commodo tempus dolor. In auctor egestas tortor, aliquet congue magna dapibus id.
+       
+                   Pellentesque commodo imperdiet nulla id luctus. Mauris a semper quam, sed pretium nunc. Aenean mattis pretium nulla, id pharetra magna placerat nec. Quisque sit amet nisi lobortis, pretium nisi sit amet, suscipit leo. Praesent in volutpat neque. Nulla sed elit nibh. Pellentesque pellentesque ante sed augue sollicitudin fermentum. Sed aliquet id nunc sed semper. Sed massa velit, vulputate in dignissim ac, porta vitae tellus. Etiam in sem est. Sed gravida fermentum nisi, id ultrices diam posuere ut. Duis id lorem sed nunc venenatis congue a in nisl. Etiam non vulputate leo. Nunc tempus felis nisl, vel venenatis nunc pellentesque in. Nullam consequat lacus ornare molestie tempor.
+                   
+                   , lorem in tincidunt efficitur, ex urna viverra magna, nec aliquam elit elit id sem. Nam tortor nunc, suscipit sit amet risus id, dapibus dignissim ex. Morbi sit amet eros nunc. In in velit consectetur, porta orci in, fringilla nisi. Cras gravida lorem quis porttitor accumsan. Suspendisse potenti.
+                   
+                   Integer sollicitudin aliquet nulla varius vehicula. Nullam ut laoreet turpis. Aliquam erat volutpat. Suspendisse ultricies justo purus, eget viverra lacus aliquet sit amet. Donec euismod sed leo vel ultrices. Curabitur suscipit semper ullamcorper. Suspendisse sed libero vel libero faucibus egestas. Proin at mollis orci. Suspendisse vel nunc at neque pharetra semper. Donec vehicula blandit consectetur. Nulla elementum enim eu erat egestas, quis placerat elit vehicula. Pellentesque augue quam, dictum vitae venenatis nec, elementum id sapien. Vestibulum cursus quam lacus, vitae luctus massa vulputate sed. Vivamus consequat metus eleifend, aliquam ligula a, finibus tortor. Nunc vehicula eros ligula, id auctor erat placerat eget. Phasellus pulvinar felis sed elit efficitur euismod.
+                   
+                   Nulla facilisi. Vestibulum sem ante, accumsan aliquam faucibus nec, pharetra id ex. Phasellus interdum rhoncus enim, tristique tincidunt ipsum vulputate non. Morbi sed venenatis quam. Nam vitae mollis elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer euismod justo vel leo viverra, eu imperdiet dolor vulputate. Cras at felis ante. Aliquam vitae lacus quam. Sed lacinia tortor vel neque blandit, et vulputate ex malesuada. Pellentesque interdum dolor quis vehicula maximus. Sed sodales tortor at suscipit rutrum. Cras convallis magna eu bibendum iaculis. Maecenas consequat augue nec neque feugiat fringilla.
+                   
+                   Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst. Aliquam rhoncus metus ante, nec gravida justo fringilla vitae. Vivamus auctor dapibus augue, posuere venenatis turpis scelerisque ac. Mauris fermentum, orci ut egestas condimentum, mauris enim sagittis magna, id.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus fermentum velit ut condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec interdum vestibulum nulla quis lobortis. Integer egestas nulla sapien, ac vestibulum nisi lobortis eget. Aenean et purus auctor, porttitor quam id, aliquet urna. Nunc molestie a lectus nec sagittis. Integer leo massa, sagittis ut arcu sit amet, congue ultrices urna. Morbi ac velit eu turpis luctus aliquet. Mauris id luctus turpis. Donec sit amet enim nec metus pellentesque cursus at ac nunc.
+             
+                   Sed id est vel risus scelerisque venenatis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id sapien in arcu iaculis mattis. Nulla eget rhoncus orci. Integer scelerisque non tortor et maximus. Sed pellentesque lectus eu placerat rutrum. Mauris nec tempor nisl.
+                   
+                   Suspendisse tortor arcu, hendrerit ut massa a, vestibulum ullamcorper risus. Maecenas velit libero, tincidunt eget velit efficitur, viverra mollis augue. Pellentesque ullamcorper ligula et pretium scelerisque. Vestibulum vitae volutpat libero, hendrerit finibus dolor. Sed faucibus erat tellus, ut porta sem tincidunt accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus vitae dolor auctor, porttitor tellus eget, iaculis risus.
+                   
+                   Pellentesque fermentum a nibh sit amet semper. Donec viverra massa eget nulla volutpat porta. Donec ornare a magna nec mollis. Nullam laoreet sodales odio, quis tristique enim euismod eget. Mauris commodo condimentum fermentum. Nulla imperdiet dapibus leo, id consequat risus tempus egestas. Proin lacinia, purus sit amet sodales fermentum, tellus elit eleifend lacus, in feugiat massa nunc a ex. Nullam justo urna, hendrerit in erat sed, gravida fringilla neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam erat volutpat. Maecenas viverra sapien urna, at luctus velit placerat id. Donec tincidunt, est eget aliquet feugiat, sapien eros facilisis risus.</p>
+                 
+               </div>
+       
+               
+       
+               
+             </div>
+             
+               
+       
+           <!-- Optional JavaScript; choose one of the two! -->
+       
+           <!-- Option 1: Bootstrap Bundle with Popper -->
+           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+       
+           <!-- Option 2: Separate Popper and Bootstrap JS -->
+           <!--
+           <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+           -->
+
+
+          <!-- ------------------------------------FOOTER------------------------- -->
+
+          <!-- <div class="container" style="height:100vh"></div> -->
+
+          <div class="footer_skew" id="footer_main">
+               <footer>
+                    <div class="overlay"> </div>
+                    <div class="foot_inside" style="text-align: center;">
+                         <a href="https://www.pict.edu" target="_blank"><img src="./pict_logo.png" alt="PICT Logo"
+                                   title="PICT-Top Engineering College" class="pictlogo"></a>
+                         <a onclick="toTop()" style="cursor: pointer;"><img src="./logo.png" class="logo_footer" id="logo_footer"></a><br>
+                         <div class="footer_col">
+                              <a class="footer_links" href="gallery">Gallery</a><br>
+                              <a class="footer_links" href="#events">Events</a><br>
+                              <a class="footer_links" href="team">Our Team</a><br>
+          
+                         </div>
+                         <div class="footer_col">
+                              <a class="footer_links" href="magazines">Archives</a><br>
+                              <a class="footer_links" href="vol22">Magazine</a><br>
+                              <a class="footer_links" href="">About us</a><br>
+                         </div>
+                         <br><br>
+                         <div class="social">
+                              <a href="https://www.facebook.com/pictoreal/" target="_blank" class="social_icons">
+                                   <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                              </a>
+                              <a href="https://www.instagram.com/pictoreal/" target="_blank" class="social_icons ">
+                                   <i class="fab fa-instagram" aria-hidden="true"></i>
+                              </a>
+                              <a href="https://www.linkedin.com/company/pictoreal" target="_blank" class="social_icons">
+                                   <i class=" fab fa-linkedin" aria-hidden="true"></i>
+                              </a>
+                              <a href="https://twitter.com/pictoreal_pict" target="_blank" class="social_icons">
+                                   <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                              </a>
+                              <a href="mailto:pictoreal@pict.edu" class="social_icons"> 
+                                   <i class=" fa fa-envelope" aria-hidden="true"></i>
+                              </a>
+                         </div>
+                         <br><br>
+                         <div class="copyright" id="footer10">
+                              &copy;Pictoreal 2021<br>
+                              Developed with ❤ by <a style="color: white" href="#popup8">Pictoreal Web team.</a>
+                         </div>
+                         <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    </div>
+               </footer>
+           </div>
+
+          <script>
+
+               $(window).on('load', function () {
+                   $(".loader").delay(1500).fadeOut("slow");
+                   $("#overlayer").delay(1500).fadeOut("slow");
+               })
+          </script>
+          
+          
+          
+          <script type="text/javascript">
+          
+               // $(document).ready(function(){
+               //   $("#popup-close").click(function(){
+               //     $("#popup8").css("display", "none");
+               //   });
+               //   $("#team").click(function(){
+               //     $("#popup8").css("display", "block");
+               //   });
+               // });
+          
+          
+          
+          </script>
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script>
+               AOS.init({
+               // Global settings:
+               disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+               startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+               initClassName: 'aos-init', // class applied after initialization
+               animatedClassName: 'aos-animate', // class applied on animation
+               useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+               disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+               debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+               throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+          
+          
+               // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+               offset: 120, // offset (in px) from the original trigger point
+               delay: 0, // values from 0 to 3000, with step 50ms
+               duration: 400, // values from 0 to 3000, with step 50ms
+               easing: 'ease', // default easing for AOS animations
+               once: false, // whether animation should happen only once - while scrolling down
+               mirror: false, // whether elements should animate out while scrolling past them
+               anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+               });
+          </script>
+          <script type="text/javascript">
+               setTimeout(function () {
+               members.innerHTML = 150;
+               }, 1000);
+               setTimeout(function () {
+               years.innerHTML = 23;
+               }, 1000);
+          
+               setTimeout(function () {
+               moolah.innerHTML = 101009;
+               }, 1000);
+               setTimeout(function () {
+               hello.innerHTML = 7;
+               }, 1000);
+          </script>
+          
+          
+          <script type="application/javascript">
+          var loadCounter = 0;
+          var loaded = function() {
+               loadCounter += 1;
+          }
+          </script>
+          
+          <script type="application/javascript">
+          var loadCounter = 0;
+          var loaded = function() {
+               loadCounter += 1;
+               if (loadCounter === 2) {
+                    $("iframe").attr("height", "400px");
+                    // $(window).scrollTo(100,0)
+                    window.scrollTo({ top: 0, behavior: 'smooth' })
+                    document.getElementById("gform").style.height = "400px" 
+               }
+          }
+          </script>
+     </body>
+
+</html>
